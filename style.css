@@ -191,7 +191,9 @@ a {
 .portrait { aspect-ratio: 4 / 5; }
 .tall { aspect-ratio: 3 / 4; }
 .medium { aspect-ratio: 4 / 3; }
-
+.horizontal-photo {
+  aspect-ratio: 3 / 2;
+}
 .caption-row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
