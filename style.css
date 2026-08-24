@@ -187,7 +187,7 @@ a {
 }
 
 .landscape { aspect-ratio: 16 / 10; }
-.panorama { aspect-ratio: 21 / 8; }
+.panorama { aspect-ratio: 16 / 9; }
 .portrait { aspect-ratio: 4 / 5; }
 .tall { aspect-ratio: 3 / 4; }
 .medium { aspect-ratio: 4 / 3; }
