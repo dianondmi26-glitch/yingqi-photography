@@ -280,6 +280,7 @@ horizontal-photo {
 }
 
 .diptych figure:last-child {
+   aspect-ratio: 3 / 4;
   transform: translateY(10vh);
 }
 
