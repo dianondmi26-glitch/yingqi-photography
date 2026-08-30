@@ -775,3 +775,19 @@ footer {
 .pyramiden-statement-text {
   align-self: center;
 }
+@media (max-width: 820px) {
+
+  .pyramiden-statement {
+    width: calc(100vw - 40px);
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .pyramiden-statement-image {
+    width: 100%;
+    max-width: none;
+    aspect-ratio: 16 / 9;
+    transform: none;
+  }
+
+}
