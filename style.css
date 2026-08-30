@@ -728,9 +728,10 @@ footer {
 }
 
 .pyramiden-intro-image {
-  width: min(100%, 468px);
+  width: min(calc(100% + 50px), 520px);
   aspect-ratio: 4 / 5;
   margin-top: 0;
+  transform: translateX(-50px);
 }
 
 .pyramiden-intro-image img {
@@ -743,6 +744,7 @@ footer {
   .pyramiden-intro-image {
     width: 72%;
     margin-top: 0;
+    transform: none;
   }
 }
 .pyramiden-intro {
